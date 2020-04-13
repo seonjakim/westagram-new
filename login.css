@@ -1,0 +1,66 @@
+* {
+    box-sizing: border-box;
+
+}
+
+.loginContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 350px;
+    background-color: #ffffff;
+    border: 1px solid #dbdbdb;
+    border-radius: 1px;
+    margin: 0 0 10px;
+    padding: 10px 0;
+}
+
+.instaLogo{
+    margin: 22px auto 35px;
+    display: flex;
+    justify-content: center;
+}
+
+.loginInputdiv {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+input {    
+    margin: 5px;
+    border-radius: 3px;
+    width: 268px;
+    padding: 9px 0px 7px 8px;
+    border: 1px solid #dbdbdb;
+    font: 400 13.3333px Arial;
+    color: #8e8e8e;
+    text-indent: 0px;
+    font-size: 12px;
+    cursor: text;
+}
+
+button {
+    padding: 6px;
+    margin: 15px 40px;
+    width: 268px;
+    border-radius: 4px;
+    font-size: 14px;
+    font-stretch: 100%;
+    font-weight: 400;
+    border: 1px solid #ffffff;
+    color: #ffffff;
+    background-color: lightblue;
+}
+
+.noKnowLink {
+    display: block; 
+    color: #00376B;
+    font-size: 10px;
+    font-weight: 600;
+    text-decoration: none;
+    padding-top: 90px;
+    padding-bottom: 15px;
+    text-align: center;
+}

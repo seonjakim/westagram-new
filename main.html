@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width">
+	<title>repl.it</title>
+	<link href="style/common.css" rel="stylesheet" type="text/css" />
+	<link href="style/main.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+    <div class="wholePageSize">
+        <nav class="naviBar">
+            <div class="navInsideSection">
+               <div class="instaLogo">
+                    <img id="staLogo" src="logo_text.png">
+               </div> 
+               <div class="searchBar">
+                    <input type="text" id="searchBar" placeholder="검색" />
+               </div>
+               <div class="emo">
+                    <img id="search" src="https://s3.ap-northeast-2.amazonaws.com/cdn.wecode.co.kr/bearu/explore.png">
+                    <img id="heart" src="https://s3.ap-northeast-2.amazonaws.com/cdn.wecode.co.kr/bearu/heart.png">
+                    <img id="human" src="https://s3.ap-northeast-2.amazonaws.com/cdn.wecode.co.kr/bearu/profile.png">
+                </div>
+            </div>
+        </nav>
+        <div class="mainFeedSection">
+            <section class="feedWholePage">
+                <article class="feedArticle">
+                    <header class="feedHeader">
+                        <div class="profileIcon">
+                            <img src="1800x1200_cat_relaxing_on_patio_other.jpg" alt="a relaxing cat">
+                        </div>
+                        <div class="userIdOnFeed"> 
+                            <div id="headerIdBold">Cuttypie</div>
+                            <div id="headerStatus">Adventure</div>
+                        </div>
+                        <img src="https://s3.ap-northeast-2.amazonaws.com/cdn.wecode.co.kr/bearu/more.png" alt="Dot">
+                    </header>
+                    <div class="photoPage">
+                        <img id="singPhoto" src="lazycat.jpeg" alt="photo with frined"> 
+                    </div>
+                    <div class="commentSection">
+                        <div class="emoAboveComment">
+                            <img src="https://s3.ap-northeast-2.amazonaws.com/cdn.wecode.co.kr/bearu/heart.png" alt="heart sign">
+                            <img id="speechBubble" src="https://s3.ap-northeast-2.amazonaws.com/cdn.wecode.co.kr/bearu/comment.png">
+                            <img id="bookMark" src="https://s3.ap-northeast-2.amazonaws.com/cdn.wecode.co.kr/bearu/bookmark.png">
+                        </div>
+                        <div class="divForLike">
+                            <div class="iLikeinKo">좋아요 3개</div>
+                        </div>
+                        <div class="actualComments">
+                            <div>
+                                <div><span id="helloId">Hello </span><span> it is 3a.m. in the morning..</span></div>
+                                <div><span id="morningId">Good Morning </span><span> Couldn't sleep well..</span></div>
+                                <div class="fixFontSizetgh">댓글 6개 모두 보기</div>
+                            </div>
+                            <div class="generatedComment"></div>
+                        </div>
+                        <section class="theCommentAssignment">
+                            <div class="toWrapComment">
+                                <input id="commentJs" placeholder="댓글 달기..." autocomplete="off" autocorrect="off"></input>
+                                <button id="buttonCall"  value="게시">게시</button>
+                            </div>
+                        </section>
+                    </div>
+                </article>
+                <div class="stickyStory">
+                    <div class="showID">
+                        <img src="puppy.jpg" alt="Small profile">
+                        <div class="showActualID">
+                            <div id="showIDBold">FunDev</div>
+                            <div id="showName">Jihui</div>
+                        </div>
+                    </div>
+                    <div class="showStory">
+                        <div class="storyTitle">
+                            <span class="wordStory">스토리</span>
+                            <span class="seeAll">모두 보기</span>
+                        </div>
+                        <div class="forOverFlow2">
+                            <div class="storyFriendId">
+                                <img src="puppy2.jpg">
+                                <div class="storyFriendIdWords">
+                                    <span id="friendId">CutePuppy</span>
+                                    <span id="timeLeft">3시간 전</span>
+                                </div>
+                            </div>
+                            <div class="storyFriendId">
+                                <img src="puppy2.jpg">
+                                <div class="storyFriendIdWords">
+                                    <span id="friendId">CutePuppy</span>
+                                    <span id="timeLeft">3시간 전</span>
+                                </div>
+                            </div>
+                            <div class="storyFriendId">
+                                <img src="puppy2.jpg">
+                                <div class="storyFriendIdWords">
+                                    <span id="friendId">CutePuppy</span>
+                                    <span id="timeLeft">3시간 전</span>
+                                </div>
+                            </div>
+                            <div class="storyFriendId">
+                                <img src="puppy2.jpg">
+                                <div class="storyFriendIdWords">
+                                    <span id="friendId">CutePuppy</span>
+                                    <span id="timeLeft">3시간 전</span>
+                                </div>
+                            </div>
+                            <div class="storyFriendId">
+                                <img src="puppy2.jpg">
+                                <div class="storyFriendIdWords">
+                                    <span id="friendId">CutePuppy</span>
+                                    <span id="timeLeft">3시간 전</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="recommandedFriend">
+                            <div class="friendTop">
+                                <span class="friendForYou">회원님을 위한 추천</span>
+                                <span class="seeAll2">모두 보기</span>
+                            </div>
+                            <div class="forOverFlow">
+                                <div class="storyFriendId">
+                                    <img src="puppy2.jpg">
+                                    <div class="storyFriendIdWords">
+                                        <span id="friendId">CutePuppy</span>
+                                        <span id="timeLeft">3시간 전</span>
+                                    </div>
+                                </div>
+                                <div class="storyFriendId">
+                                    <img src="puppy2.jpg">
+                                    <div class="storyFriendIdWords">
+                                        <span id="friendId">CutePuppy</span>
+                                        <span id="timeLeft">3시간 전</span>
+                                    </div>
+                                </div>
+                                <div class="storyFriendId">
+                                    <img src="puppy2.jpg">
+                                    <div class="storyFriendIdWords">
+                                        <span id="friendId">CutePuppy</span>
+                                        <span id="timeLeft">3시간 전</span>
+                                    </div>
+                                </div>
+                                <div class="storyFriendId">
+                                    <img src="puppy2.jpg">
+                                    <div class="storyFriendIdWords">
+                                        <span id="friendId">CutePuppy</span>
+                                        <span id="timeLeft">3시간 전</span>
+                                    </div>
+                                </div>
+                                <div class="storyFriendId">
+                                    <img src="puppy2.jpg">
+                                    <div class="storyFriendIdWords">
+                                        <span id="friendId">CutePuppy</span>
+                                        <span id="timeLeft">3시간 전</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </div>
+	<script src="js/main.js">
+	</script>
+</body>
+
+</html>
